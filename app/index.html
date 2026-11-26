@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="DompetKeluarga — situs anggaran rumah tangga: kalkulator 50/30/20, skenario UMP 2026, pelacak pengeluaran, dan simulator target tabungan. Semua angka ber-sumber BPS, Kemnaker, dan Bank Indonesia.">
+<title>DompetKeluarga — Anggaran Rumah Tangga</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/" aria-label="DompetKeluarga — Beranda">
+      <svg class="logo" viewBox="0 0 48 48" width="40" height="40" aria-hidden="true"><rect x="4" y="12" width="40" height="28" rx="7" fill="#0c4a3a"/><path d="M4 19a7 7 0 0 1 7-7h30a7 7 0 0 1 7 7v3H4z" fill="#177a5b"/><circle cx="34" cy="26" r="6" fill="#e8a100"/><circle cx="34" cy="26" r="2.4" fill="#0c4a3a"/><rect x="10" y="30" width="14" height="3" rx="1.5" fill="#faf6ec" opacity="0.85"/></svg>
+      <span class="brand-name">Dompet<span>Keluarga</span></span>
+    </a>
+    <div class="search-box">
+      <input id="site-search" type="search" placeholder="Cari: kalkulator, UMP, tabungan…" aria-label="Cari di situs" autocomplete="off">
+      <div id="search-results" class="search-results" hidden></div>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="Navigasi utama">
+    <a href="#/">Beranda</a>
+    <a href="#/kalkulator">Kalkulator 50/30/20</a>
+    <a href="#/skenario">Skenario</a>
+    <a href="#/pelacak">Pelacak</a>
+    <a href="#/tabungan">Tabungan</a>
+    <a href="#/harga">Harga &amp; UMP</a>
+    <a href="#/tentang">Tentang</a>
+  </nav>
+</header>
+<main id="view"></main>
+<footer class="site-footer">
+  <p><b>DompetKeluarga</b> — anggaran rumah tangga berbahasa Indonesia. Semua alat berjalan di perambanmu; tidak ada akun, tidak ada data yang dikirim ke mana pun.</p>
+  <p class="muted small">Angka: BPS (Susenas 2024, Kemiskinan Sep 2024, Sakernas Agt 2024), Kemnaker (UMP 2026, KHL 2026), Bank Indonesia (PIHPS 24 Nov 2026), Kementerian ESDM (BBM/LPG 2026). Rincian lengkap di <a href="#/tentang">Tentang &amp; sumber</a>.</p>
+</footer>
+</body>
+</html>
